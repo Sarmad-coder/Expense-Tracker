@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.filter-btn {
+  background-color: #ebf4fb;
+  border-color: #0079ca;
+  color: #0079ca;
+  font-weight: 500;
+}
+.ant-modal-content {
+  max-margin: -11% -70% 0 60%;
+}
+.filter-options {
+  margin: 20px 0 0 0;
+}

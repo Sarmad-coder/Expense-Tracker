@@ -1,0 +1,57 @@
+#transactionDiv {
+    border-bottom: 2px solid #dedede;
+    ;
+    padding: 11px;
+    margin-bottom: 10px;
+}
+
+.plus {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-right: 5px solid #2da3ad;
+}
+
+.plus:hover {
+    background-color: #2da3ad;
+
+}
+
+.crossbtn {
+
+    position: absolute;
+    left: -33px;
+    top: 4px;
+    display: none;
+}
+
+.editbtn {
+    position: absolute;
+    right: -44px;
+    top: 4px;
+    display: none;
+}
+
+#transactionHistory {
+
+    width: 40%;
+}
+
+#show {
+    display: inline-block;
+}
+
+.minus {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-right: 5px solid #b6960a;
+}
+
+.minus:hover {
+    background-color: #b6960a;
+}

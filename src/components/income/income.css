@@ -1,0 +1,17 @@
+.inline_Block {
+    display: inline-block;
+}
+
+.incomeLine {
+    background: #dedede;
+    width: 2px;
+    height: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#incomeDiv {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
